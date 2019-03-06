@@ -1,0 +1,32 @@
+1.TextInputLayout EditText等的容器，点击EditText时会将hint的内容滚动到左上角；还可以显示输入的字符数。
+app:counterEnabled="true" //设置为true才能显字符数
+        
+app:counterMaxLength="5" //设置最大字符数为5
+        
+app:counterOverflowTextAppearance="@style/HintError" //设置超出字符数后提示文字的颜色，如果不设置默认为@color/colorAccent的颜色
+        android:layout_height="wrap_content">
+
+app:passwordToggleEnabled="true"  点击按钮密码是否可见
+
+
+https://www.jianshu.com/p/4c99e4c0fe90
+
+
+2.Button设置了enable属性导致点击事件失效
+	通过对Edittext的文本监听动态改变Button的enable属性
+
+
+3.自定义验证码输入框时，EditText焦点被抢占
+AndroidManifest.xml文件中设置android:windowSoftInputMode="stateVisible|adjustResize"
+https://www.jianshu.com/p/3238a5afc21c
+
+4.DownCountTimer 实现倒计时功能
+
+5.仿IOS 加载功能
+https://github.com/taixiang/loading
+
+
+
+6.https://www.jianshu.com/p/0ad99e598dba
+https://blog.csdn.net/rouzi1230/article/details/70115505
+https://github.com/googlesamples/android-architecture/tree/todo-mvp/

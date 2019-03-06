@@ -1,0 +1,20 @@
+1.Retrofit2 添加公共参数
+https://blog.csdn.net/zx_android/article/details/79273797
+
+2.SharedPreferences clear方法不起效果
+问题代码：
+  AccountInfo.clear(CPApplication.getInstance());
+  //此处不能再次进行写入信息，否则清空不生效
+  AccountInfo.setIsFirstIn(false);
+  MainActivity.show(this);
+  finish();
+
+ SharedPreferences sp = context.getSharedPreferences("share_pref",
+                Context.MODE_PRIVATE);
+ sp.edit().clear().apply();
+
+//TODO 待解决
+
+在清空之后，再次进行写入操作，重新生成xml数据，导致清空无效。
+
+参考：https://blog.csdn.net/chengxu_hou/article/details/71747608

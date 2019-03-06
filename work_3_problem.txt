@@ -1,0 +1,14 @@
+1.ScrollView 不能占满整个布局的解决方案：
+android:fillViewport="true"
+
+2.当LinearLayout的内容比较大时，可能会出现ScrollView初始位置不在顶部的问题。
+那怎么解决这个问题呢，方法是，在ScrollView内嵌套的LinearLayout布局中增加以下代码：
+android:focusable="true"
+android:focusableInTouchMode="true"
+
+3.ScrollView中嵌套ListView,导致ListView只显示一个子项的问题（ScrollView无法滚动）：
+方案一：XML直接写死ListView的高度
+方案二：自定义ListView类，重写onMeasure()方法， int expandSpec = MeasureSpec.makeMeasureSpec(Integer.MAX_VALUE >> 2,
+                MeasureSpec.AT_MOST);
+方案三：重新计算高度，并设置
+方案四：解决滑动监听

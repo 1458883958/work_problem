@@ -1,0 +1,18 @@
+1.自定义Switch控件的样式，仿IOS
+https://blog.csdn.net/qq_34763699/article/details/54954394
+
+2.edittext 
+     android:ellipsize="start" 省略号在开头
+
+         android:ellipsize="middle" 省略号在中间
+
+         android:ellipsize="end" 省略号在结尾
+
+         android:ellipsize="marquee" 跑马灯显示 //循环滚动显示
+
+3.https://www.jianshu.com/p/cd3557b1a474 RxJava2.0使用
+
+Observable 被观察者
+Subscribe 订阅
+ObservableOnSubscribe 可以理解为一个计划表，在重写的方法的中写具体计划
+Scheduler 调度器

@@ -1,0 +1,31 @@
+1.@
+
+--类型一：(引用自定义资源)
+形如：android:xx = "@[package:]type/name",自定义package:省略
+例如：
+android:text="@string/app_name"
+android:textColor="@color/gary"
+
+--类型二：(引用系统资源)
+形如：android:xx = "@android:type/name",为@[package:]type/name的一个子类
+例如：
+android:textColor="@android:color/white"
+
+2.@* 引用系统所有资源
+形如：android:xx = "@*android:type/name"
+android:xx = "@android:type/name"只能调用系统的public属性资源
+
+3.？ 引用主题属性-无需具体值，会在主题属性中查找并替换
+只能在XML文件或style资源中使用。
+形如：?[namespace:]type/name，这里类型可选。
+android:textColor="?attr/colorAccent"
+
+4.@引用资源  @+创建资源  形如：@+type/name
++ 代表在R文件中新添加一个静态final常量值 
+--@+id/name 代表创建一个名为name的资源标识引用
+--@id/name 引用名为name的资源标识引用（如果资源存在）
+--@android:id/name 引用系统name资源
+
+例如：
+android:id="@+id/tv_test" 代表创建一个tv_test的资源标识引用
+android:id="@id/tv_test" 引用一个名为tv_test的资源

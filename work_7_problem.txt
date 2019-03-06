@@ -1,0 +1,4 @@
+1.EditText输入时按照相应的格式添加空格（手机号 银行卡号）
+2.Activity内部，点击按钮替换部分界面；fragment与activity传值
+
+3.https://www.cnblogs.com/Talon-lly/p/6526627.html 设置数字键盘和允许输入的内容

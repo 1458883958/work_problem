@@ -1,0 +1,87 @@
+1.使用NestedScrollView属性fillViewport解决android布局不能撑满全屏的问题
+android:fillViewport="true"
+
+2.对EditText 输入的内容进行限制
+https://blog.csdn.net/wuyinlei/article/details/78631043
+
+3.修改部分TextView 的颜色/字体
+
+https://blog.csdn.net/u010023795/article/details/54951127
+
+4.double/float 向上/下取整
+https://blog.csdn.net/geniushorse/article/details/83182241
+
+5.Edittext java动态改变输入内容是否可见
+https://blog.csdn.net/song_74110/article/details/69240506
+
+6.获取当前年月日 星期几
+https://blog.csdn.net/zhangli_/article/details/51382517
+
+7.Easypermission
+https://github.com/googlesamples/easypermissions
+
+8.获取资源文件中的字符串数组/int数组
+https://www.jianshu.com/p/8b2fddf51d11
+
+
+9.浮点数运算精度问题 处理
+https://blog.csdn.net/github_38924695/article/details/78990080
+
+
+
+10.Android 日历控件，比较好用（使用装饰者模式）
+https://github.com/square/android-times-square
+
+
+11.https://github.com/AweiLoveAndroid/Flutter-learning/blob/master/readme/Flutter%E7%9A%84%E9%9C%80%E8%A6%81%E4%B8%8E%E5%8E%9F%E7%94%9F%E4%BA%A4%E4%BA%92%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E5%BA%93.md  flutter与原生交互的常用库
+
+
+12.https://blog.csdn.net/u011195535/article/details/44850727  自定义dialog底部弹出
+
+
+13.https://www.jianshu.com/p/035f955d026b  LayoutParams的使用
+https://www.cnblogs.com/Annoying/p/5402339.html
+
+
+14.https://blog.csdn.net/llayjun/article/details/73550172  ListView中重复调用getView问题
+
+15.Java代码中多次调用动态调用Relativelayout.LayoutParam.addRule()导致的错位问题
+https://blog.csdn.net/JadynAi/article/details/54344527
+
+16.EditText 设置多行
+https://www.cnblogs.com/woaixingxing/p/5633252.html
+
+17.Ctrl+Shift+R 全局替换查找
+
+18.TabLayout 修改指示器宽度
+https://blog.csdn.net/gods_magic/article/details/81335859
+
+19.TabLayout tab项的标题字数不一样导致的字体大小不一致的问题
+https://blog.csdn.net/crazy1235/article/details/71425135
+20.TabLayout设置tab之间的间距
+https://blog.csdn.net/u010845516/article/details/79563561
+
+
+21.解决ScrollView自动滑动到底部的问题
+https://www.jianshu.com/p/653762a06300
+
+
+22.Toast显示在屏幕中间
+https://blog.csdn.net/shenggaofei/article/details/51924495
+
+23.EditText 设置游标位置以及样式，为end时变细的问题
+https://www.jianshu.com/p/d3e8f580c784
+
+
+24.AppBarLayout+ListView 滑动ListView被AppBarLayout遮挡
+https://stackoverflow.com/questions/32653767/android-appbarlayout-overlaps-listview
+
+25.View转成Bitmap
+https://www.jianshu.com/p/41edf6ef970d
+
+
+26.adb 给手机安装apk
+https://blog.csdn.net/geekqian/article/details/79035540
+
+27.apk打包release.apk后无法正常解析json(开启混肴)
+https://blog.csdn.net/yonbor605/article/details/86679179
